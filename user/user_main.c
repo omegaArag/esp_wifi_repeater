@@ -55,7 +55,7 @@
 #include "mqtt.h"
 #endif
 
-#define os_sprintf_flash(str, fmt, ...)                                    \
+#define ICACHE_FLASH_ATTR os_sprintf_flash(str, fmt, ...)                                    \
     do                                                                     \
     {                                                                      \
         static const char flash_str[] ICACHE_RODATA_ATTR STORE_ATTR = fmt; \
