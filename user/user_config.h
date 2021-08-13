@@ -37,18 +37,18 @@
 //
 // Define this to 1 to support the "scan" command for AP search
 //
-#define		ALLOW_SCANNING 1
+#define		ALLOW_SCANNING 0
 
 //
 // Define this to 1 to support the "ping" command for IP connectivity check
 //
-#define		ALLOW_PING 1
+#define		ALLOW_PING 0
 
 //
 // Define this to 1 to support the "sleep" command for power management and deep sleep
 // Requires a connection of GPIO16 and RST (probably not available on ESP01 modules)
 //
-#define		ALLOW_SLEEP 1
+#define		ALLOW_SLEEP 0
 
 //
 // Define this to 1 to support a daily traffic limit
@@ -75,18 +75,18 @@
 //
 // Define this to 1 if you want to have access to the config via Web.
 //
-#define		WEB_CONFIG 1
+#define		WEB_CONFIG 0
 #define		WEB_CONFIG_PORT 80
 
 //
 // Define this to 1 if you want to have ACLs for the SoftAP.
 //
-#define		ACLS 1
+#define		ACLS 0
 
 //
 // Define this to 1 if you want to have OTA (Over the air) updates
 //
-#define		OTAUPDATE 1
+#define		OTAUPDATE 0
 
 //
 // Define this to 1 if you want to have QoS for the SoftAP.
@@ -100,7 +100,7 @@
 // Packets are mirrored in pcap format to the given port.
 // CAUTION: this might be a privacy issue!!!
 //
-#define		REMOTE_MONITORING 1
+#define		REMOTE_MONITORING 0
 
 #define		MONITOR_BUFFER_SIZE 0x3c00
 
@@ -114,7 +114,7 @@
 //
 // Define this to 1 if you want to have it work as a MQTT client
 //
-#define		MQTT_CLIENT 1
+#define		MQTT_CLIENT 0
 
 #define		MQTT_BUF_SIZE 2048
 #define		MQTT_KEEPALIVE 120  /*seconds*/
@@ -140,7 +140,7 @@
 // Define this to 1 to support an ENC28J60 Ethernet interface
 // Experimental feature - not yet stable
 //
-#define		HAVE_ENC28J60 0
+#define		HAVE_ENC28J60 1
 
 //
 // Define this to 1 to support ENC28J60 DHCP server
