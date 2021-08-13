@@ -4342,7 +4342,6 @@ void ICACHE_FLASH_ATTR user_init()
 #endif
 
 #if GPIO_CMDS
-    int i;
     for (i = 0; i < 17; i++)
     {
         if (config.gpiomode[i] == OUT)
