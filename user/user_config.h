@@ -81,7 +81,7 @@
 //
 // Define this to 1 if you want to have ACLs for the SoftAP.
 //
-#define		ACLS 0
+#define		ACLS 1
 
 //
 // Define this to 1 if you want to have OTA (Over the air) updates
